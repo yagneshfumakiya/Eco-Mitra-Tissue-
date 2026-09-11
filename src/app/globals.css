@@ -1,0 +1,75 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --brand-dark-green: #0F382C;
+    --brand-forest: #144E3D;
+    --brand-leaf: #16A34A;
+    --brand-light-leaf: #22C55E;
+    --brand-cream: #F4F9F5;
+    --brand-light-bg: #F8FAF6;
+    --brand-card-border: #E2ECE5;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  body {
+    background-color: var(--brand-light-bg);
+    color: #1E293B;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom Utilities for Premium Look */
+.bg-gradient-eco {
+  background: linear-gradient(135deg, #0F382C 0%, #175442 50%, #1A644F 100%);
+}
+
+.bg-gradient-leaf {
+  background: linear-gradient(135deg, #16A34A 0%, #22C55E 100%);
+}
+
+.bg-gradient-soft-green {
+  background: linear-gradient(180deg, #F4F9F5 0%, #E8F3EB 100%);
+}
+
+.bg-glass {
+  background: rgba(255, 255, 255, 0.92);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.shadow-eco {
+  box-shadow: 0 10px 30px -5px rgba(15, 56, 44, 0.08), 0 4px 12px -2px rgba(15, 56, 44, 0.04);
+}
+
+.shadow-eco-lg {
+  box-shadow: 0 20px 40px -10px rgba(15, 56, 44, 0.15), 0 8px 16px -4px rgba(15, 56, 44, 0.08);
+}
+
+@keyframes pulse-gentle {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.4);
+  }
+  50% {
+    transform: scale(1.04);
+    box-shadow: 0 0 0 12px rgba(34, 197, 94, 0);
+  }
+}
+
+.animate-pulse-gentle {
+  animation: pulse-gentle 3s infinite ease-in-out;
+}
+
+@keyframes float-slow {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-8px) rotate(1deg); }
+}
+
+.animate-float {
+  animation: float-slow 5s ease-in-out infinite;
+}
