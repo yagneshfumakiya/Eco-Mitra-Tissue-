@@ -6,7 +6,7 @@ const FEATURES = [
   {
     icon: ShieldCheck,
     title: 'Quality You Can Trust',
-    description: 'Manufactured from 100% virgin pulp with stringent multi-stage quality checks. Outstanding absorbency, lint-free finish, and zero chemical residue.',
+    description: 'Manufactured from 100% virgin and Semi virgin pulp with stringent multi-stage quality checks. Outstanding absorbency, lint-free finish, and zero chemical residue.',
     color: 'emerald',
     badge: '100% Virgin Fiber',
   },
@@ -37,7 +37,7 @@ export const WhyChooseUs: React.FC = () => {
   return (
     <section className="py-16 sm:py-24 bg-white relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        
+
         {/* Section Title */}
         <SectionTitle
           pill="Why Choose Eco Mitra"

@@ -25,7 +25,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
             className="object-cover object-center group-hover:scale-108 transition-transform duration-500"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent opacity-60 group-hover:opacity-40 transition-opacity" />
-          
+
           {/* Top Badges */}
           <div className="absolute top-4 left-4 right-4 flex items-center justify-between pointer-events-none">
             <span className="px-3.5 py-1.5 rounded-full text-xs font-bold bg-white/95 text-emerald-900 shadow-md backdrop-blur-md border border-emerald-100">
@@ -43,7 +43,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           <div className="absolute bottom-3 left-4 right-4 flex items-center gap-3 text-white text-xs font-semibold">
             <span className="inline-flex items-center gap-1 bg-black/60 backdrop-blur-md px-2.5 py-1 rounded-lg">
               <Layers className="w-3.5 h-3.5 text-emerald-300" />
-              {product.ply}
+              {product.size}
             </span>
             <span className="inline-flex items-center gap-1 bg-black/60 backdrop-blur-md px-2.5 py-1 rounded-lg">
               <Package className="w-3.5 h-3.5 text-emerald-300" />

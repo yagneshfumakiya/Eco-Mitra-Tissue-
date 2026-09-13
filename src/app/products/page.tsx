@@ -9,7 +9,7 @@ import { SectionTitle } from '@/components/common/SectionTitle';
 import { Leaf, MessageCircle, PackageCheck, Truck, HelpCircle } from 'lucide-react';
 import { getWhatsAppLink } from '@/config/business';
 
-const CATEGORIES: ProductCategory[] = ['All', 'Regular', 'Soft', 'Extra Soft', 'Premium', 'Commercial'];
+const CATEGORIES: ProductCategory[] = ['All', 'Regular 27 CM x 27 CM', 'Soft 27 CM x 27 CM', 'Extra Soft 27 CM x 27 CM', 'Regular 27 CM x 30 CM', 'Soft 27 CM x 30 CM', 'Extra Soft 27 CM x 30 CM'];
 
 export default function ProductsPage() {
   const [selectedCategory, setSelectedCategory] = useState<ProductCategory>('All');
@@ -33,7 +33,7 @@ export default function ProductsPage() {
 
   return (
     <div className="space-y-0">
-      
+
       {/* Catalog Hero Banner */}
       <section className="bg-gradient-eco text-white pt-16 pb-20 relative overflow-hidden">
         <div className="absolute top-0 right-1/4 w-96 h-96 bg-emerald-500/10 rounded-full blur-3xl pointer-events-none" />
@@ -54,7 +54,7 @@ export default function ProductsPage() {
       {/* Main Catalog Grid */}
       <section className="py-16 bg-slate-50 min-h-screen">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          
+
           {/* Category Filter Component */}
           <ProductFilter
             categories={CATEGORIES}

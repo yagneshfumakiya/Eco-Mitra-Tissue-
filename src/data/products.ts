@@ -2,17 +2,18 @@ import { Product } from '@/types/product';
 
 export const PRODUCTS: Product[] = [
   {
-    id: 'regular-tissue-paper',
+    id: 'regular-tissue-paper1',
     name: 'Regular Tissue Paper',
-    category: 'Regular',
+    category: 'Regular 27 CM x 27 CM',
     description: 'Reliable and practical tissue paper suitable for everyday use. Perfect balance of absorbency and strength for daily household and quick commercial usage.',
     packInfo: '60 Pulls per Pack',
-    ply: '2 Ply',
+    ply: '1 Ply',
+    size: '27 CM x 27 CM',
     pulls: '60 Pulls',
     material: '100% Virgin Fiber',
     popular: false,
     badge: 'Everyday Essential',
-    image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?q=80&w=800&auto=format&fit=crop',
+    image: '/Eco_banner.png',
     features: [
       'High absorbency & liquid retention',
       'Lint-free texture for clean wipes',
@@ -22,17 +23,18 @@ export const PRODUCTS: Product[] = [
     idealFor: ['Homes', 'Small Cafes', 'Quick Service Outlets', 'Daily Office Use']
   },
   {
-    id: 'soft-tissue-paper',
+    id: 'soft-tissue-paper2',
     name: 'Soft Tissue Paper',
-    category: 'Soft',
+    category: 'Soft 27 CM x 27 CM',
     description: 'Soft and comfortable tissue paper designed for a pleasant everyday experience. Extra gentle on facial skin with enhanced micro-embossed softness.',
     packInfo: '60 Pulls per Pack',
-    ply: '2 Ply Soft',
+    ply: '1 Ply Soft',
+    size: '27 CM x 27 CM',
     pulls: '60 Pulls',
     material: 'Pure Bamboo Blend',
     popular: true,
     badge: 'Best Seller',
-    image: 'https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?q=80&w=800&auto=format&fit=crop',
+    image: '/Eco_banner.png',
     features: [
       'Silky smooth texture for facial skin',
       'Micro-embossed layer technology',
@@ -42,17 +44,18 @@ export const PRODUCTS: Product[] = [
     idealFor: ['Executive Offices', 'Boutique Cafes', 'Salons & Spas', 'Personal Care']
   },
   {
-    id: 'extra-soft-tissue-paper',
+    id: 'extra-soft-tissue-paper3',
     name: 'Extra Soft Tissue Paper',
-    category: 'Extra Soft',
+    category: 'Extra Soft 27 CM x 27 CM',
     description: 'A softer and more comfortable tissue option for customers who prefer premium comfort. Ultra-plush feel engineered for luxury hospitality.',
     packInfo: '60 Pulls per Pack',
-    ply: '3 Ply Ultra',
+    ply: '1 Ply Ultra',
+    size: '27 CM x 27 CM',
     pulls: '60 Pulls',
     material: '100% Bamboo Virgin Pulp',
     popular: false,
     badge: 'Ultra Comfort',
-    image: 'https://images.unsplash.com/photo-1563453392212-326f5e854473?q=80&w=800&auto=format&fit=crop',
+    image: '/Eco_banner.png',
     features: [
       'Luxurious 3-ply extra cushion softness',
       'Zero bleach or harsh artificial fragrance',
@@ -62,43 +65,66 @@ export const PRODUCTS: Product[] = [
     idealFor: ['Fine Dining Restaurants', 'Luxury Hotels', 'Hospitals & Clinics', 'VIP Lounges']
   },
   {
-    id: 'premium-soft-tissue',
-    name: 'Premium Soft Tissue',
-    category: 'Premium',
-    description: 'Premium quality tissue paper designed for comfort, hygiene, and superior softness. High absorbency with sophisticated leaf embossed patterns.',
+    id: 'regular-tissue-paper4',
+    name: 'Regular Tissue Paper',
+    category: 'Regular 27 CM x 30 CM',
+    description: 'Reliable and practical tissue paper suitable for everyday use. Perfect balance of absorbency and strength for daily household and quick commercial usage.',
     packInfo: '60 Pulls per Pack',
-    ply: '3 Ply Gold',
+    ply: '1 Ply',
+    size: '27 CM x 30 CM',
     pulls: '60 Pulls',
-    material: 'Ultra-Pure Organic Cellulose',
-    popular: true,
-    badge: 'Premium Pick',
-    image: 'https://images.unsplash.com/photo-1583947215259-38e31be8751f?q=80&w=800&auto=format&fit=crop',
+    material: '100% Virgin Fiber',
+    popular: false,
+    badge: 'Everyday Essential',
+    image: '/Eco_banner.png',
     features: [
-      'Signature nature leaf embossing design',
-      'Superior absorbency - 3x water capacity',
-      'Elegant dispenser box packaging',
-      'Biodegradable and eco-friendly'
+      'High absorbency & liquid retention',
+      'Lint-free texture for clean wipes',
+      'Hygienic single pull dispensing',
+      'Tear-resistant 2-ply construction'
     ],
-    idealFor: ['5-Star Hotels', 'Corporate HQ', 'Luxury Catering', 'High-end Retail']
+    idealFor: ['Homes', 'Small Cafes', 'Quick Service Outlets', 'Daily Office Use']
   },
   {
-    id: 'bulk-tissue-pack',
-    name: 'Bulk Tissue Pack',
-    category: 'Commercial',
-    description: 'A practical tissue solution designed for restaurants, offices, hotels, and commercial requirements. High-efficiency bulk supply with custom logo print option.',
-    packInfo: 'Bulk Pack (50 Boxes / Carton)',
-    ply: '2 Ply Commercial',
-    pulls: 'Bulk Supply',
-    material: 'High Efficiency Recycled & Virgin Fiber',
+    id: 'soft-tissue-paper5',
+    name: 'Soft Tissue Paper',
+    category: 'Soft 27 CM x 30 CM',
+    description: 'Soft and comfortable tissue paper designed for a pleasant everyday experience. Extra gentle on facial skin with enhanced micro-embossed softness.',
+    packInfo: '60 Pulls per Pack',
+    ply: '1 Ply Soft',
+    size: '27 CM x 30 CM',
+    pulls: '60 Pulls',
+    material: 'Pure Bamboo Blend',
     popular: true,
-    badge: 'Commercial Choice',
-    image: 'https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?q=80&w=800&auto=format&fit=crop',
+    badge: 'Best Seller',
+    image: '/Eco_banner.png',
     features: [
-      'Wholesale bulk pricing for high-volume users',
-      'Custom branding & logo print available',
-      'Compact bulk packing for compact storage',
-      'Consistent stock & scheduled auto-refill'
+      'Silky smooth texture for facial skin',
+      'Micro-embossed layer technology',
+      'Hypoallergenic and chemical-free',
+      'Dermatologically safe for sensitive skin'
     ],
-    idealFor: ['Food Courts', 'Chains & Franchises', 'Large Corporate Hubs', 'Wholesale Distributors']
-  }
+    idealFor: ['Executive Offices', 'Boutique Cafes', 'Salons & Spas', 'Personal Care']
+  },
+  {
+    id: 'extra-soft-tissue-paper6',
+    name: 'Extra Soft Tissue Paper',
+    category: 'Extra Soft 27 CM x 30 CM',
+    description: 'A softer and more comfortable tissue option for customers who prefer premium comfort. Ultra-plush feel engineered for luxury hospitality.',
+    packInfo: '60 Pulls per Pack',
+    ply: '1 Ply Ultra',
+    size: '27 CM x 30 CM',
+    pulls: '60 Pulls',
+    material: '100% Bamboo Virgin Pulp',
+    popular: false,
+    badge: 'Ultra Comfort',
+    image: '/Eco_banner.png',
+    features: [
+      'Luxurious 3-ply extra cushion softness',
+      'Zero bleach or harsh artificial fragrance',
+      'Gentle velvet-like touch',
+      'Eco-certified sustainable fiber'
+    ],
+    idealFor: ['Fine Dining Restaurants', 'Luxury Hotels', 'Hospitals & Clinics', 'VIP Lounges']
+  },
 ];

@@ -10,10 +10,10 @@ export const HeroSection: React.FC = () => {
       {/* Decorative Background Accents */}
       <div className="absolute top-10 left-1/2 -translate-x-1/2 w-full max-w-7xl h-96 bg-emerald-100/40 rounded-full blur-3xl pointer-events-none -z-10" />
       <div className="absolute -top-24 right-0 w-96 h-96 bg-emerald-200/20 rounded-full blur-3xl pointer-events-none -z-10" />
-      
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
-          
+
           {/* Left Column: Headline & Action */}
           <div className="lg:col-span-7 space-y-6 sm:space-y-8 text-left">
             {/* Pill Badge */}
@@ -79,26 +79,26 @@ export const HeroSection: React.FC = () => {
           {/* Right Column: Visual Showcase Card */}
           <div className="lg:col-span-5 relative">
             <div className="relative mx-auto max-w-md lg:max-w-none">
-              
+
               {/* Main Visual Image Card */}
               <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-white group">
                 <div className="relative h-[380px] sm:h-[450px] w-full overflow-hidden bg-emerald-950">
                   <Image
-                    src="https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?q=80&w=1000&auto=format&fit=crop"
+                    src="/Eco_banner.png"
                     alt="Eco Mitra Premium Soft Tissue Paper"
                     fill
                     sizes="(max-width: 768px) 100vw, 50vw"
-                    className="object-cover object-center group-hover:scale-105 transition-transform duration-700 opacity-90"
+                    className="object-contain object-center group-hover:scale-105 transition-transform duration-700 opacity-90"
                     priority
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-emerald-950/80 via-emerald-950/20 to-transparent" />
-                  
+
                   {/* Text Overlay inside image */}
                   <div className="absolute bottom-6 left-6 right-6 text-white space-y-1.5">
                     <span className="inline-block px-3 py-1 bg-emerald-500/90 backdrop-blur-md rounded-md text-[11px] font-bold tracking-wider uppercase">
-                      Pure Bamboo & Virgin Pulp
+                      Virgin Pulp
                     </span>
-                    <h3 className="text-xl font-bold text-white">Ultra Soft 2-Ply & 3-Ply Comfort</h3>
+                    <h3 className="text-xl font-bold text-white">Premium Tissue Paper</h3>
                     <p className="text-xs text-emerald-100/90">Zero harsh chemicals, maximum softness for every touch.</p>
                   </div>
                 </div>
@@ -127,10 +127,10 @@ export const HeroSection: React.FC = () => {
               </div>
 
               {/* Floating Badge 3: Eco Leaf */}
-              <div className="absolute bottom-16 -left-8 bg-emerald-900 text-white p-3.5 rounded-2xl shadow-xl border border-emerald-700 flex items-center gap-2.5 hidden md:flex">
+              {/* <div className="absolute bottom-16 -left-8 bg-emerald-900 text-white p-3.5 rounded-2xl shadow-xl border border-emerald-700 flex items-center gap-2.5 hidden md:flex">
                 <Leaf className="w-5 h-5 text-emerald-400" />
                 <span className="text-xs font-bold">Eco-Friendly Sourcing</span>
-              </div>
+              </div> */}
 
             </div>
           </div>

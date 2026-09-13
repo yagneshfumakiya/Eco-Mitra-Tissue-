@@ -2,6 +2,7 @@ import React from 'react';
 import { HeroSection } from '@/components/home/HeroSection';
 import { WhyChooseUs } from '@/components/home/WhyChooseUs';
 import { ProductsPreview } from '@/components/home/ProductsPreview';
+import { CustomLogoTissueSection } from '@/components/home/CustomLogoTissueSection';
 import { CTASection } from '@/components/home/CTASection';
 import { TrustHighlights } from '@/components/home/TrustHighlights';
 import { Metadata } from 'next';
@@ -17,6 +18,7 @@ export default function HomePage() {
       <HeroSection />
       <WhyChooseUs />
       <ProductsPreview />
+      <CustomLogoTissueSection />
       <CTASection />
       <TrustHighlights />
     </div>
